@@ -1,0 +1,13 @@
+opencv-python
+numpy
+torch
+torchvision
+spandrel
+einops
+safetensors
+python-dotenv
+tqdm
+fastapi
+uvicorn
+python-multipart
+jinja2

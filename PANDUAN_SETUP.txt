@@ -1,0 +1,31 @@
+CARA PAKAI VIDEO UPSCALER (AI)
+=============================
+
+1. INSTAL PYTHON
+- Download & Install: https://www.python.org/downloads/
+- WAJIB: Centang "Add Python to PATH" saat instalasi.
+
+2. SETUP (Cuma sekali)
+- Buka folder proyek ini.
+- Klik kanan > "Open in Terminal" (atau buka CMD di folder ini).
+- Jalankan perintah ini berurutan:
+  python -m venv venv
+  venv\Scripts\activate
+  pip install -r requirements.txt
+
+3. JALANKAN PROGRAM
+- Masukkan video ke folder 'storage/uploads'.
+- Di terminal (pastikan venv aktif), ketik:
+  python -m app.main <nama_video_kamu>
+
+  Contoh: python -m app.main video.mp4
+
+- Hasil jadinya ada di folder: 'storage/outputs'
+
+---
+CARA KASIH KE ORANG (SHARE)
+--------------------------
+1. Hapus folder 'venv' (biar filenya enteng).
+2. Zip semua folder ini.
+3. Kirim Zip-nya.
+4. Orang tersebut cuma perlu ulangi langkah 1, 2, dan 3 di atas.
